@@ -10,8 +10,6 @@
   "author": "Gururaj Basavaraj",
   "license": "ISC",
   "dependencies":{
-  "express":"latest",
-  "body-parser":"latest",
-  "fs-extra":"latest"
+  "nforce":"latest"  
   }
 }
