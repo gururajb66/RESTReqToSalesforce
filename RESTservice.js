@@ -1,8 +1,8 @@
 var nforce = require('nforce');
 // create the connection with the Salesforce connected app
 var org = nforce.createConnection({
-  clientId: 'SOME_OAUTH_CLIENT_ID',
-  clientSecret: 'SOME_OAUTH_CLIENT_SECRET',
+  clientId: '6322903597469351781',
+  clientSecret: '3MVG9vrJTfRxlfl4jUe61vCy119efRZic.aE7PwV0drwWgPZ48wlp8In3WhxhAdjZwTLO.SVHDUBj0p.CfVKq',
   redirectUri: 'http://localhost:3000/oauth/_callback',
   mode: 'single'
 });
