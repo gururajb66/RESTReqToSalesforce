@@ -7,16 +7,14 @@ var nforce = require('nforce');
 var org = nforce.createConnection({
   clientId: '3MVG9vrJTfRxlfl4jUe61vCy119efRZic.aE7PwV0drwWgPZ48wlp8In3WhxhAdjZwTLO.SVHDUBj0p.CfVKq',
   clientSecret: '6322903597469351781',
-  redirectUri: 'http://localhost:3000/oauth/_callback',
-  username: 'gururaj4cloud@gmail.com',
-  password:'S2lesforce',
+  redirectUri: 'http://localhost:3000/oauth/_callback',  
   mode: 'single'
 });
 console.log(org);
 // authenticate and return OAuth token
 org.authenticate({
   username: 'gururaj4cloud@gmail.com',
-  password: 'S2lesforce'
+  password: 'S2lesforcem6ljYhpuJwoWKYj1LPskmq1h'
 }, function(err, resp){
   if (!err) {
     console.log('Successfully logged in! Cached Token: ' + org.oauth.access_token);
