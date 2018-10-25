@@ -7,6 +7,7 @@ var org = nforce.createConnection({
   redirectUri: 'http://localhost:3000/oauth/_callback',
   mode: 'single'
 });
+console.log(org);
 // authenticate and return OAuth token
 org.authenticate({
   username: 'gururaj4cloud@gmail.com',
@@ -24,5 +25,5 @@ org.authenticate({
       }
     });
   }
-  if (err) console.log(err);
+  if (err) console.log('Boss the error is : '+err);
 });
