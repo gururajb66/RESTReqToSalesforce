@@ -1,3 +1,4 @@
+console.log('very beggining');
 var nforce = require('nforce');
 // create the connection with the Salesforce connected app
 var org = nforce.createConnection({
