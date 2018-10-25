@@ -9,8 +9,8 @@ var org = nforce.createConnection({
 });
 // authenticate and return OAuth token
 org.authenticate({
-  username: gururaj4cloud@gmail.com,
-  password: 'S2lesforce'+''
+  username: 'gururaj4cloud@gmail.com',
+  password: 'S2lesforce'
 }, function(err, resp){
   if (!err) {
     console.log('Successfully logged in! Cached Token: ' + org.oauth.access_token);
