@@ -7,7 +7,10 @@ var nforce = require('nforce');
 var org = nforce.createConnection({
   clientId: '3MVG9vrJTfRxlfl4jUe61vCy119efRZic.aE7PwV0drwWgPZ48wlp8In3WhxhAdjZwTLO.SVHDUBj0p.CfVKq',
   clientSecret: '6322903597469351781',
-  redirectUri: 'http://localhost:3000/oauth/_callback',  
+  redirectUri: 'http://localhost:3000/oauth/_callback',
+  username:'gururaj4cloud@gmail.com',
+  password:'S2lesforce',
+  securityToken:'m6ljYhpuJwoWKYj1LPskmq1h',
   mode: 'single'
 });
 console.log(org);
