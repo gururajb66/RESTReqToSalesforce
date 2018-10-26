@@ -10,6 +10,11 @@
   "author": "Gururaj Basavaraj",
   "license": "ISC",
   "dependencies":{
-  "nforce":"latest"  
+  "nforce":"latest",
+    "body-parser":"latest",
+    "fs":"latest",
+    "coinbase":"latest",
+    "express":"latest",
+    "uniqid":"latest"
   }
 }
