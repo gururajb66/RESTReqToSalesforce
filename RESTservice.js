@@ -5,16 +5,16 @@ require('dns').lookup(require('os').hostname(), function (err, add, fam) {
 var nforce = require('nforce');
 // create the connection with the Salesforce connected app
 var org = nforce.createConnection({
-  clientId: 'CLIENTID',
-  clientSecret: 'CLIENTSECRET',
+  clientId: '3MVG9vrJTfRxlfl4jUe61vCy119efRZic.aE7PwV0drwWgPZ48wlp8In3WhxhAdjZwTLO.SVHDUBj0p.CfVKq',
+  clientSecret: '6322903597469351781',
   redirectUri: 'http://localhost:3000/oauth/_callback',
   mode: 'single'
 });
 console.log(org);
 // authenticate and return OAuth token
 org.authenticate({
-  username: 'USERNAME',
-  password: 'PASSWORD+SECURITYTOKEN'
+  username: 'gururaj4cloud@gmail.com',
+  password: 'S2lesforcem6ljYhpuJwoWKYj1LPskmq1h'
 }, function(err, resp){
   if (!err) {
     console.log('Successfully logged in! Cached Token: ' + org.oauth.access_token);
@@ -28,5 +28,5 @@ org.authenticate({
       }
     });
   }
-  if (err) console.log('Boss the error is : '+err);
+  if (err) console.log('Boss the error is : '+err+' the request is '+org);
 });
