@@ -12,7 +12,7 @@
   "dependencies":{
   "nforce":"latest",
     "body-parser":"latest",
-    "fs-extra":"2.0.0",
+    "fs-extra":"latest",
     "coinbase":"latest",
     "express":"latest",
     "uniqid":"latest"
