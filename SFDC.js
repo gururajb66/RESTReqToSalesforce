@@ -21,6 +21,7 @@ module.exports={
 	}, function(err, resp){
 	  if (!err) {
 	    console.log('Successfully logged in! Cached Token: ' + org.oauth.access_token);
+		  console.log('resp '+resp);
 	    oauth = resp;
 	    var acc = nforce.createSObject('Account');
 		acc.set('Name', a);
