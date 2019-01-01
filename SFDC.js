@@ -16,8 +16,9 @@ module.exports={
 	console.log(org);
 	// authenticate and return OAuth token
 	org.authenticate({
-	  username: 'gururaj4cloud@gmail.com',
-	  password: 'S2lesforcem6ljYhpuJwoWKYj1LPskmq1h'
+	authEndpoint:'https://login.salesforce.com/services/oauth2/authorize'		
+	//username: 'gururaj4cloud@gmail.com',
+	  //password: 'S2lesforcem6ljYhpuJwoWKYj1LPskmq1h'
 	}, function(err, resp){
 	  if (!err) {
 	    console.log('Successfully logged in! Cached Token: ' + org.oauth.access_token);
